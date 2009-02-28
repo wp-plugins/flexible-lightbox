@@ -1,5 +1,5 @@
-$(function() {		   
-	$('a.lightbox').lightBox({   
+jQuery(function() {		   
+	jQuery('a.lightbox').lightBox({   
 							 imageLoading:path+'lightbox-ico-loading.gif',		
 			                 imageBtnPrev:path+'lightbox-btn-prev.gif',			
 			                 imageBtnNext:path+'lightbox-btn-next.gif',
@@ -7,7 +7,7 @@ $(function() {
 			                 imageBlank:path+'lightbox-blank.gif'
 							 });	
 	
-	$('.gallery a').lightBox({   
+	jQuery('.gallery a').lightBox({   
 							 imageLoading:path+'lightbox-ico-loading.gif',		
 			                 imageBtnPrev:path+'lightbox-btn-prev.gif',			
 			                 imageBtnNext:path+'lightbox-btn-next.gif',

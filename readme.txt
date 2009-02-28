@@ -2,7 +2,7 @@
 Contributors: Alaingg
 Tags: lightbox, images, popup, integration, gallery, attachment, html, class, jquery, popup
 Requires at least: 2.5
-Tested up to: 2.7
+Tested up to: 2.7.1
 Stable tag: 4.3
 
 Integrate Lightbox into your blogs. Open Images and Native Galleries on the popup overlay window without touching the html code. You can select if you want to 'Open using Lightbox' on the image setting panel.

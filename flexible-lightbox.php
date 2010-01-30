@@ -3,7 +3,7 @@
 Plugin Name: Flexible Lightbox
 Plugin URI: http://www.web-argument.com/flexible-lightbox
 Description: Integrate Lightbox into your blogs. Open Images and Native Galleries on the popup overlay window without touching the html code. On the image setting panel you can select if you want to 'Open using Lightbox'.
-Version: 1.0.2
+Version: 1.0.3
 Author: Alain Gonzalez
 Author URI: http://www.web-argument.com
 */
@@ -214,10 +214,10 @@ add_shortcode('gallery', 'gallery_shortcode_flbox');
 function flbox_head() {
 
     $flbox_header =  "\n<!-- Flexible Lightbox -->\n";		
-   	$flbox_header .= "<script type=\"text/javascript\" src=\"".get_bloginfo('url')."/wp-content/plugins/flexible-lightbox/js/jquery.lightbox-0.5.pack.js\"></script>\n";
-	$flbox_header .= "<script type=\"text/javascript\">var path=\"".get_bloginfo('url')."/wp-content/plugins/flexible-lightbox/images/\";</script>\n";	
-	$flbox_header .= "<script type=\"text/javascript\" src=\"".get_bloginfo('url')."/wp-content/plugins/flexible-lightbox/js/lightbox_call.js\"></script>\n";		
-	$flbox_header .= "\t<link href=\"".get_bloginfo('url')."/wp-content/plugins/flexible-lightbox/css/jquery.lightbox-0.5.css\" rel=\"stylesheet\" type=\"text/css\" />\n";
+   	$flbox_header .= "<script type=\"text/javascript\" src=\"".get_bloginfo('wpurl')."/wp-content/plugins/flexible-lightbox/js/jquery.lightbox-0.5.pack.js\"></script>\n";
+	$flbox_header .= "<script type=\"text/javascript\">var path=\"".get_bloginfo('wpurl')."/wp-content/plugins/flexible-lightbox/images/\";</script>\n";	
+	$flbox_header .= "<script type=\"text/javascript\" src=\"".get_bloginfo('wpurl')."/wp-content/plugins/flexible-lightbox/js/lightbox_call.js\"></script>\n";		
+	$flbox_header .= "\t<link href=\"".get_bloginfo('wpurl')."/wp-content/plugins/flexible-lightbox/css/jquery.lightbox-0.5.css\" rel=\"stylesheet\" type=\"text/css\" />\n";
             
 print($flbox_header);
 }

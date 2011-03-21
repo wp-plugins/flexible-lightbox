@@ -3,7 +3,7 @@
 Plugin Name: Flexible Lightbox
 Plugin URI: http://www.web-argument.com/flexible-lightbox
 Description: Integrate Lightbox into your blogs. Open Images and Native Galleries on the popup overlay window without touching the html code. On the image setting panel you can select if you want to 'Open using Lightbox'.
-Version: 1.0.3
+Version: 1.0.4
 Author: Alain Gonzalez
 Author URI: http://www.web-argument.com
 */
@@ -138,7 +138,6 @@ function gallery_shortcode_flbox($attr) {
 		return $output;
 	}
 
-	$listtag = tag_escape($listtag);
 	$itemtag = tag_escape($itemtag);
 	$captiontag = tag_escape($captiontag);
 	$columns = intval($columns);
@@ -189,7 +188,7 @@ function gallery_shortcode_flbox($attr) {
 			</{$icontag}>";
 		
 		$output .= "</{$itemtag}>";
-		if ( $columns > 0 && ++$i % $columns == 0 )
+		if ( $columns == 0 )
 			$output .= '<br style="clear: both" />';
 	}
 
@@ -200,7 +199,7 @@ function gallery_shortcode_flbox($attr) {
 	return $output;
 }
 
-remove_shortcode(gallery);
+remove_shortcode('gallery');
 
 
 add_shortcode('gallery', 'gallery_shortcode_flbox');

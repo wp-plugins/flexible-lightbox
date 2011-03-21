@@ -2,8 +2,8 @@
 Contributors: Alaingg
 Tags: lightbox, images, popup, integration, gallery, attachment, html, class, jquery, popup
 Requires at least: 2.5
-Tested up to: 2.9.1
-Stable tag: 1.0.3
+Tested up to: 3.1
+Stable tag: 1.0.4
 
 Integrate Lightbox into your blogs. Open Images and Native Galleries on the popup overlay window without touching the html code. You can select if you want to 'Open using Lightbox' on the image setting panel.
 
@@ -26,6 +26,10 @@ Visit the <a href="http://web-argument.com/flexible-lightbox/">plugin page</a> f
 
 == Changelog ==  
    
+= 1.0.4 =  
+ * Some bugs fixed
+ * WP 3.1 compatible
+
 = 1.0.3 =  
  * Fixed file path to get_bloginfo('wpurl')
    

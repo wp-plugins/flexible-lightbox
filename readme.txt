@@ -12,11 +12,11 @@ Integrate Lightbox into your blogs. Open Images and Native Galleries on the popu
 This plugin allows to use the Lightbox features for images and wordpress galleries without touching the html code. It includes an option 'Open using lightbox' on the Setting Panel to be used before inserting the single images on your post. 
 
 For the native wordpress galleries the plugin inserts the "lightbox" class automatically.
-Visit the <a href="http://web-argument.com/flexible-lightbox/">plugin page</a> for more details.
+Visit the <a href="http://web-argument.com/flexible-lightbox/">plugin page</a> for examples and more details.
 
 == Installation ==
 
-1. Upload 'flexible lightbox' folder to the '/wp-content/plugins/' directory
+1. Upload `flexible lightbox` folder to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress.
 3. And that's it.
 

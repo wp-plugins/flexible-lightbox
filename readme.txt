@@ -1,5 +1,6 @@
 === Flexible Lightbox ===
 Contributors: Alaingg
+Donate link: http://web-argument.com/flexible-lightbox/
 Tags: lightbox, images, popup, integration, gallery, attachment, html, class, jquery, popup
 Requires at least: 2.5
 Tested up to: 3.1
